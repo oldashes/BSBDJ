@@ -35,7 +35,7 @@
         [publishButton sizeToFit];
         [publishButton addTarget:self action:@selector(publishClick) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:publishButton];
-        publishButton = _publishButton;
+        _publishButton = publishButton;
     }
     return _publishButton;
 }
@@ -51,7 +51,7 @@
     self.publishButton.centerY = self.height * 0.5;
     
     NSLog(@"%f", self.width * 0.5);
-    NSLog(@"%f", self.publishButton.centerX);
+    NSLog(@"%@", self.publishButton);
     
     CGFloat buttonW = self.width / 5;
     CGFloat index = 0;
