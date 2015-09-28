@@ -12,6 +12,8 @@
 		CFB4862E1BAC045F00738A54 /* TXNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4862D1BAC045F00738A54 /* TXNewViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CFB486311BAC049200738A54 /* TXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB486301BAC049200738A54 /* TXFriendTrendsViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CFB486341BAC04A000738A54 /* TXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB486331BAC04A000738A54 /* TXMeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CFBE1E0B1BAEF96A00EC6D8F /* UIBarButtonItem+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBE1E0A1BAEF96A00EC6D8F /* UIBarButtonItem+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
+		CFC47C361BB97073001C6F50 /* UIView+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C351BB97073001C6F50 /* UIView+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
 		CFC71EA01BABF5E80049F642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71E9F1BABF5E80049F642 /* main.m */; };
 		CFC71EA31BABF5E80049F642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71EA21BABF5E80049F642 /* AppDelegate.m */; };
 		CFC71EA61BABF5E80049F642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71EA51BABF5E80049F642 /* ViewController.m */; };
@@ -19,6 +21,9 @@
 		CFC71EAB1BABF5E80049F642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC71EAA1BABF5E80049F642 /* Assets.xcassets */; };
 		CFC71EB91BABF5E80049F642 /* BSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71EB81BABF5E80049F642 /* BSBDJTests.m */; };
 		CFC71EC41BABF5E80049F642 /* BSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71EC31BABF5E80049F642 /* BSBDJUITests.m */; };
+		CFCEE1021BB6A11E00F2FF05 /* TXSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEE1011BB6A11E00F2FF05 /* TXSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CFCEE1051BB7A8E700F2FF05 /* TXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEE1041BB7A8E700F2FF05 /* TXNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		CFCEE1081BB9603300F2FF05 /* TXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCEE1071BB9603300F2FF05 /* TXTabBar.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		CFB486301BAC049200738A54 /* TXFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXFriendTrendsViewController.m; sourceTree = "<group>"; };
 		CFB486321BAC04A000738A54 /* TXMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMeViewController.h; sourceTree = "<group>"; };
 		CFB486331BAC04A000738A54 /* TXMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXMeViewController.m; sourceTree = "<group>"; };
+		CFBE1E081BAD6CDE00EC6D8F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CFBE1E091BAEF96A00EC6D8F /* UIBarButtonItem+TXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TXExtension.h"; sourceTree = "<group>"; };
+		CFBE1E0A1BAEF96A00EC6D8F /* UIBarButtonItem+TXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TXExtension.m"; sourceTree = "<group>"; };
+		CFC47C341BB97073001C6F50 /* UIView+TXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TXExtension.h"; sourceTree = "<group>"; };
+		CFC47C351BB97073001C6F50 /* UIView+TXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TXExtension.m"; sourceTree = "<group>"; };
 		CFC71E9B1BABF5E80049F642 /* BSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC71E9F1BABF5E80049F642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CFC71EA11BABF5E80049F642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +74,12 @@
 		CFC71EBF1BABF5E80049F642 /* BSBDJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSBDJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC71EC31BABF5E80049F642 /* BSBDJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSBDJUITests.m; sourceTree = "<group>"; };
 		CFC71EC51BABF5E80049F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCEE1001BB6A11E00F2FF05 /* TXSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSettingViewController.h; sourceTree = "<group>"; };
+		CFCEE1011BB6A11E00F2FF05 /* TXSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSettingViewController.m; sourceTree = "<group>"; };
+		CFCEE1031BB7A8E700F2FF05 /* TXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXNavigationController.h; sourceTree = "<group>"; };
+		CFCEE1041BB7A8E700F2FF05 /* TXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXNavigationController.m; sourceTree = "<group>"; };
+		CFCEE1061BB9603300F2FF05 /* TXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTabBar.h; sourceTree = "<group>"; };
+		CFCEE1071BB9603300F2FF05 /* TXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +134,8 @@
 				CFC71EA21BABF5E80049F642 /* AppDelegate.m */,
 				CFC71EA41BABF5E80049F642 /* ViewController.h */,
 				CFC71EA51BABF5E80049F642 /* ViewController.m */,
+				CFCEE1061BB9603300F2FF05 /* TXTabBar.h */,
+				CFCEE1071BB9603300F2FF05 /* TXTabBar.m */,
 				CFB486261BABFFF300738A54 /* TXTabBarController.h */,
 				CFB486271BABFFF300738A54 /* TXTabBarController.m */,
 				CFC71EAA1BABF5E80049F642 /* Assets.xcassets */,
@@ -131,6 +149,14 @@
 				CFB486301BAC049200738A54 /* TXFriendTrendsViewController.m */,
 				CFB486321BAC04A000738A54 /* TXMeViewController.h */,
 				CFB486331BAC04A000738A54 /* TXMeViewController.m */,
+				CFCEE1001BB6A11E00F2FF05 /* TXSettingViewController.h */,
+				CFCEE1011BB6A11E00F2FF05 /* TXSettingViewController.m */,
+				CFCEE1031BB7A8E700F2FF05 /* TXNavigationController.h */,
+				CFCEE1041BB7A8E700F2FF05 /* TXNavigationController.m */,
+				CFC47C341BB97073001C6F50 /* UIView+TXExtension.h */,
+				CFC47C351BB97073001C6F50 /* UIView+TXExtension.m */,
+				CFBE1E091BAEF96A00EC6D8F /* UIBarButtonItem+TXExtension.h */,
+				CFBE1E0A1BAEF96A00EC6D8F /* UIBarButtonItem+TXExtension.m */,
 			);
 			path = BSBDJ;
 			sourceTree = "<group>";
@@ -138,6 +164,7 @@
 		CFC71E9E1BABF5E80049F642 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFBE1E081BAD6CDE00EC6D8F /* PrefixHeader.pch */,
 				CFC71EA71BABF5E80049F642 /* Main.storyboard */,
 				CFC71E9F1BABF5E80049F642 /* main.m */,
 			);
@@ -295,12 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC47C361BB97073001C6F50 /* UIView+TXExtension.m in Sources */,
 				CFC71EA61BABF5E80049F642 /* ViewController.m in Sources */,
 				CFC71EA31BABF5E80049F642 /* AppDelegate.m in Sources */,
 				CFB4862B1BAC044100738A54 /* TXEssenceViewController.m in Sources */,
 				CFB4862E1BAC045F00738A54 /* TXNewViewController.m in Sources */,
 				CFB486341BAC04A000738A54 /* TXMeViewController.m in Sources */,
+				CFCEE1021BB6A11E00F2FF05 /* TXSettingViewController.m in Sources */,
+				CFCEE1051BB7A8E700F2FF05 /* TXNavigationController.m in Sources */,
+				CFBE1E0B1BAEF96A00EC6D8F /* UIBarButtonItem+TXExtension.m in Sources */,
 				CFB486311BAC049200738A54 /* TXFriendTrendsViewController.m in Sources */,
+				CFCEE1081BB9603300F2FF05 /* TXTabBar.m in Sources */,
 				CFC71EA01BABF5E80049F642 /* main.m in Sources */,
 				CFB486281BABFFF300738A54 /* TXTabBarController.m in Sources */,
 			);
@@ -434,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PREFIX_HEADER = BSBDJ/PrefixHeader.pch;
 				INFOPLIST_FILE = BSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oldashes.BSBDJ;
@@ -447,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				GCC_PREFIX_HEADER = BSBDJ/PrefixHeader.pch;
 				INFOPLIST_FILE = BSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oldashes.BSBDJ;

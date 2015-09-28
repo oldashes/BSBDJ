@@ -10,4 +10,17 @@
 
 @implementation TXEssenceViewController
 
+- (void)viewDidLoad{
+
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    
+
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self aciton:@selector(tagSubClick) image:@"MainTagSubIcon" highlightImage:@"MainTagSubIconClick"];
+}
+
+- (void)tagSubClick
+{
+    TXLogFunc;
+}
+
 @end

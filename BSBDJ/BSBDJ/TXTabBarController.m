@@ -11,12 +11,21 @@
 #import "TXNewViewController.h"
 #import "TXFriendTrendsViewController.h"
 #import "TXMeViewController.h"
+#import "TXNavigationController.h"
+#import "TXTabBar.h"
 
 @implementation TXTabBarController
 
 - (void)viewDidLoad{
     [self setUpAllChildVces];
     [self setUpAttrs];
+    [self setUpTabBar];
+}
+
+- (void)setUpTabBar
+{
+//    self.tabBar = [[TXTabBar alloc] init]; // readonly
+    [self setValue:[[TXTabBar alloc] init] forKeyPath:@"tabBar"];
 }
 
 - (void)setUpAllChildVces
@@ -24,15 +33,19 @@
     [self setUpChildVc:[[TXEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon"  selectedImage:@"tabBar_essence_click_icon"];
     [self setUpChildVc:[[TXNewViewController alloc] init] title:@"新闻" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     [self setUpChildVc:[[TXFriendTrendsViewController alloc] init] title:@"动态" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
-    [self setUpChildVc:[[TXMeViewController alloc] init] title:@"我" image:@"tabBar_me_click_icon" selectedImage:@"tabBar_me_click_icon"];
+    [self setUpChildVc:[[TXMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
 }
 
 - (void)setUpChildVc:(UIViewController *) vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
 {
-    vc.tabBarItem.title = title;
+    TXNavigationController *nav = [[TXNavigationController alloc] initWithRootViewController:vc];
+    
+    vc.title = title;
+//    vc.navigationItem.title = title;
+//    nav.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
-    [self addChildViewController:vc];
+    [self addChildViewController:nav];
 }
 
 - (void)setUpAttrs

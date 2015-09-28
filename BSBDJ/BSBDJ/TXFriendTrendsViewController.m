@@ -9,5 +9,13 @@
 #import "TXFriendTrendsViewController.h"
 
 @implementation TXFriendTrendsViewController
+- (void)viewDidLoad{
+    self.navigationItem.title = @"我的关注";
 
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self aciton:@selector(friendsRecommentClick) image:@"friendsRecommentIcon" highlightImage:@"friendsRecommentIcon-click"];
+}
+
+-(void)friendsRecommentClick{
+    TXLogFunc;
+}
 @end
