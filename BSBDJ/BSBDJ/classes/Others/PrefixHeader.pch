@@ -21,9 +21,14 @@
 
 #define TXColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
+#define TXColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define TXRandomColor TXColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define TXGrayColor(v) TXColor(v, v, v)
+#define TXCommonBgColor TXGrayColor(206)
+
 #define TXLogFunc TXLog(@"%s", __func__) 
 
 #import "UIBarButtonItem+TXExtension.h"
-
-
+#import "UIView+TXExtension.h"
+#import "UITextField+TXExtension.h"
 #endif /* PrefixHeader_pch */

@@ -12,11 +12,13 @@
 @implementation TXMeViewController
 - (void)viewDidLoad{
     
+    self.view.backgroundColor = TXCommonBgColor;
+    
     UIBarButtonItem *settingItem = [UIBarButtonItem itemWithTarget:self aciton:@selector(settingClick) image:@"mine-setting-icon" highlightImage:@"mine-setting-icon-click"];
     UIBarButtonItem *moonItem = [UIBarButtonItem itemWithTarget:self aciton:@selector(moonClick) image:@"mine-moon-icon" highlightImage:@"mine-moon-icon-click"];
     self.navigationItem.rightBarButtonItems = @[settingItem, moonItem];
     
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
+//    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
 //    self.navigationItem.backBarButtonItem.tintColor = [UIColor blackColor]; // 没卵用
     self.navigationController.navigationBar.tintColor = [UIColor blackColor];
 //    self.navigationController.navigationBar.barTintColor = [UIColor blackColor];

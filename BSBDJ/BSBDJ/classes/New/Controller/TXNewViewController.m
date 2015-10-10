@@ -10,6 +10,7 @@
 
 @implementation TXNewViewController
 - (void)viewDidLoad{
+    self.view.backgroundColor = TXCommonBgColor;
     
     self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
     

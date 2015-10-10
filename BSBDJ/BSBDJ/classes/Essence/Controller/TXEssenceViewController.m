@@ -7,11 +7,13 @@
 //
 
 #import "TXEssenceViewController.h"
+#import "TXRecommendTagViewController.h"
 
 @implementation TXEssenceViewController
 
 - (void)viewDidLoad{
-
+    self.view.backgroundColor = TXCommonBgColor;
+    
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     
 
@@ -21,6 +23,9 @@
 - (void)tagSubClick
 {
     TXLogFunc;
+    
+    TXRecommendTagViewController *tag = [[TXRecommendTagViewController alloc] init];
+    [self.navigationController pushViewController:tag animated:YES];
 }
 
 @end

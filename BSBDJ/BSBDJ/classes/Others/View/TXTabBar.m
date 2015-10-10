@@ -47,11 +47,10 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     
-    self.publishButton.centerX = self.width * 0.5;
-    self.publishButton.centerY = self.height * 0.5;
+//    self.publishButton.centerX = self.width * 0.5;
+//    self.publishButton.centerY = self.height * 0.5;
+    self.publishButton.center = CGPointMake(self.width * 0.5, self.height * 0.5);
     
-    NSLog(@"%f", self.width * 0.5);
-    NSLog(@"%@", self.publishButton);
     
     CGFloat buttonW = self.width / 5;
     CGFloat index = 0;

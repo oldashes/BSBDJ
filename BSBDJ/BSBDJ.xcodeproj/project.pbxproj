@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347E817EEBB62995D876B510 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E06B294EFDEA90BE98915 /* libPods.a */; };
+		CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9A91BBF831B002B6129 /* TXQuickLoginButton.m */; settings = {ASSET_TAGS = (); }; };
+		CF08B9AD1BC29180002B6129 /* TXLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */; settings = {ASSET_TAGS = (); }; };
+		CF1286FE1BC6BE0A00FF83FC /* UITextField+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
+		CFA194121BC8EBF7005BA24B /* TXRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194111BC8EBF7005BA24B /* TXRecommendTagViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CFA194161BC8EF3F005BA24B /* TXRecommendTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194141BC8EF3F005BA24B /* TXRecommendTagViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		CFA194171BC8EF3F005BA24B /* TXRecommendTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA194151BC8EF3F005BA24B /* TXRecommendTagViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CFA3A19F1BBE719800A54997 /* TXFriendTrendsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA3A19E1BBE719800A54997 /* TXFriendTrendsViewController.storyboard */; settings = {ASSET_TAGS = (); }; };
+		CFA3A1A21BBE8BF100A54997 /* TXLoginRegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA3A1A11BBE8BF100A54997 /* TXLoginRegisteViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CFC47C651BB98A42001C6F50 /* TXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C3B1BB98A42001C6F50 /* TXEssenceViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CFC47C661BB98A42001C6F50 /* TXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C411BB98A42001C6F50 /* TXFriendTrendsViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CFC47C671BB98A42001C6F50 /* TXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C471BB98A42001C6F50 /* TXMeViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -43,6 +52,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		749E06B294EFDEA90BE98915 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B08BB675CF04568B28109B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B62AA426D53B05C37BD9B556 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CF08B9A81BBF831B002B6129 /* TXQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXQuickLoginButton.h; sourceTree = "<group>"; };
+		CF08B9A91BBF831B002B6129 /* TXQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXQuickLoginButton.m; sourceTree = "<group>"; };
+		CF08B9AB1BC29180002B6129 /* TXLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXLoginRegisterTextField.h; sourceTree = "<group>"; };
+		CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLoginRegisterTextField.m; sourceTree = "<group>"; };
+		CF1286FC1BC6BE0A00FF83FC /* UITextField+TXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TXExtension.h"; sourceTree = "<group>"; };
+		CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TXExtension.m"; sourceTree = "<group>"; };
+		CFA194101BC8EBF7005BA24B /* TXRecommendTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXRecommendTagViewController.h; sourceTree = "<group>"; };
+		CFA194111BC8EBF7005BA24B /* TXRecommendTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXRecommendTagViewController.m; sourceTree = "<group>"; };
+		CFA194131BC8EF3F005BA24B /* TXRecommendTagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXRecommendTagViewCell.h; sourceTree = "<group>"; };
+		CFA194141BC8EF3F005BA24B /* TXRecommendTagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXRecommendTagViewCell.m; sourceTree = "<group>"; };
+		CFA194151BC8EF3F005BA24B /* TXRecommendTagViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXRecommendTagViewCell.xib; sourceTree = "<group>"; };
+		CFA3A19E1BBE719800A54997 /* TXFriendTrendsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TXFriendTrendsViewController.storyboard; sourceTree = "<group>"; };
+		CFA3A1A01BBE8BF100A54997 /* TXLoginRegisteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXLoginRegisteViewController.h; sourceTree = "<group>"; };
+		CFA3A1A11BBE8BF100A54997 /* TXLoginRegisteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLoginRegisteViewController.m; sourceTree = "<group>"; };
 		CFC47C3A1BB98A42001C6F50 /* TXEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXEssenceViewController.h; sourceTree = "<group>"; };
 		CFC47C3B1BB98A42001C6F50 /* TXEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXEssenceViewController.m; sourceTree = "<group>"; };
 		CFC47C401BB98A42001C6F50 /* TXFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -84,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347E817EEBB62995D876B510 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E18F1230F4F147123AD74D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				749E06B294EFDEA90BE98915 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CFC47C371BB98A42001C6F50 /* classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +166,8 @@
 			children = (
 				CFC47C3A1BB98A42001C6F50 /* TXEssenceViewController.h */,
 				CFC47C3B1BB98A42001C6F50 /* TXEssenceViewController.m */,
+				CFA194101BC8EBF7005BA24B /* TXRecommendTagViewController.h */,
+				CFA194111BC8EBF7005BA24B /* TXRecommendTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,6 +182,9 @@
 		CFC47C3D1BB98A42001C6F50 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CFA194131BC8EF3F005BA24B /* TXRecommendTagViewCell.h */,
+				CFA194141BC8EF3F005BA24B /* TXRecommendTagViewCell.m */,
+				CFA194151BC8EF3F005BA24B /* TXRecommendTagViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +204,9 @@
 			children = (
 				CFC47C401BB98A42001C6F50 /* TXFriendTrendsViewController.h */,
 				CFC47C411BB98A42001C6F50 /* TXFriendTrendsViewController.m */,
+				CFA3A19E1BBE719800A54997 /* TXFriendTrendsViewController.storyboard */,
+				CFA3A1A01BBE8BF100A54997 /* TXLoginRegisteViewController.h */,
+				CFA3A1A11BBE8BF100A54997 /* TXLoginRegisteViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +221,10 @@
 		CFC47C431BB98A42001C6F50 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CF08B9A81BBF831B002B6129 /* TXQuickLoginButton.h */,
+				CF08B9A91BBF831B002B6129 /* TXQuickLoginButton.m */,
+				CF08B9AB1BC29180002B6129 /* TXLoginRegisterTextField.h */,
+				CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -253,14 +300,14 @@
 		CFC47C521BB98A42001C6F50 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				CFC47C531BB98A42001C6F50 /* AppDelegate.h */,
-				CFC47C541BB98A42001C6F50 /* AppDelegate.m */,
 				CFC47C551BB98A42001C6F50 /* Category */,
 				CFC47C5A1BB98A42001C6F50 /* Controller */,
-				CFC47C5F1BB98A42001C6F50 /* main.m */,
 				CFC47C601BB98A42001C6F50 /* Model */,
-				CFC47C611BB98A42001C6F50 /* PrefixHeader.pch */,
 				CFC47C621BB98A42001C6F50 /* View */,
+				CFC47C531BB98A42001C6F50 /* AppDelegate.h */,
+				CFC47C541BB98A42001C6F50 /* AppDelegate.m */,
+				CFC47C5F1BB98A42001C6F50 /* main.m */,
+				CFC47C611BB98A42001C6F50 /* PrefixHeader.pch */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -272,6 +319,8 @@
 				CFC47C571BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m */,
 				CFC47C581BB98A42001C6F50 /* UIView+TXExtension.h */,
 				CFC47C591BB98A42001C6F50 /* UIView+TXExtension.m */,
+				CF1286FC1BC6BE0A00FF83FC /* UITextField+TXExtension.h */,
+				CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -310,6 +359,8 @@
 				CFC71EB71BABF5E80049F642 /* BSBDJTests */,
 				CFC71EC21BABF5E80049F642 /* BSBDJUITests */,
 				CFC71E9C1BABF5E80049F642 /* Products */,
+				F6D3B4ADC313F5CE76FF5D21 /* Pods */,
+				0E18F1230F4F147123AD74D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -360,6 +411,15 @@
 			path = BSBDJUITests;
 			sourceTree = "<group>";
 		};
+		F6D3B4ADC313F5CE76FF5D21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B62AA426D53B05C37BD9B556 /* Pods.debug.xcconfig */,
+				82B08BB675CF04568B28109B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -367,9 +427,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFC71EC81BABF5E80049F642 /* Build configuration list for PBXNativeTarget "BSBDJ" */;
 			buildPhases = (
+				7D174D7A62587FCC3B3A12B4 /* Check Pods Manifest.lock */,
 				CFC71E971BABF5E80049F642 /* Sources */,
 				CFC71E981BABF5E80049F642 /* Frameworks */,
 				CFC71E991BABF5E80049F642 /* Resources */,
+				1223CC212A8A7C8CD4BF3822 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -467,8 +529,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA194171BC8EF3F005BA24B /* TXRecommendTagViewCell.xib in Resources */,
 				CFC71EAB1BABF5E80049F642 /* Assets.xcassets in Resources */,
 				CFC71EA91BABF5E80049F642 /* Main.storyboard in Resources */,
+				CFA3A19F1BBE719800A54997 /* TXFriendTrendsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +552,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1223CC212A8A7C8CD4BF3822 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D174D7A62587FCC3B3A12B4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFC71E971BABF5E80049F642 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -495,16 +592,22 @@
 			files = (
 				CFC47C661BB98A42001C6F50 /* TXFriendTrendsViewController.m in Sources */,
 				CFC47C691BB98A42001C6F50 /* TXNewViewController.m in Sources */,
+				CFA194161BC8EF3F005BA24B /* TXRecommendTagViewCell.m in Sources */,
 				CFC47C6B1BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m in Sources */,
+				CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */,
 				CFC47C6A1BB98A42001C6F50 /* AppDelegate.m in Sources */,
 				CFC47C6C1BB98A42001C6F50 /* UIView+TXExtension.m in Sources */,
 				CFC47C6D1BB98A42001C6F50 /* TXNavigationController.m in Sources */,
 				CFC47C681BB98A42001C6F50 /* TXSettingViewController.m in Sources */,
+				CFA3A1A21BBE8BF100A54997 /* TXLoginRegisteViewController.m in Sources */,
+				CFA194121BC8EBF7005BA24B /* TXRecommendTagViewController.m in Sources */,
 				CFC47C671BB98A42001C6F50 /* TXMeViewController.m in Sources */,
 				CFC47C651BB98A42001C6F50 /* TXEssenceViewController.m in Sources */,
 				CFC47C701BB98A42001C6F50 /* TXTabBar.m in Sources */,
 				CFC47C6F1BB98A42001C6F50 /* main.m in Sources */,
+				CF08B9AD1BC29180002B6129 /* TXLoginRegisterTextField.m in Sources */,
 				CFC47C6E1BB98A42001C6F50 /* TXTabBarController.m in Sources */,
+				CF1286FE1BC6BE0A00FF83FC /* UITextField+TXExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +736,7 @@
 		};
 		CFC71EC91BABF5E80049F642 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62AA426D53B05C37BD9B556 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
@@ -647,6 +751,7 @@
 		};
 		CFC71ECA1BABF5E80049F642 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B08BB675CF04568B28109B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
