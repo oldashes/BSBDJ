@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TXRecommendTag.h"
 @interface TXRecommendTagViewCell : UITableViewCell
-
+/** RecommendTagsModel */
+@property (nonatomic, strong) TXRecommendTag *recommendTag;
 @end

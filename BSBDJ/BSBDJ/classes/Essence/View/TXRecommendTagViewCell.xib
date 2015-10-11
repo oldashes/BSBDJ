@@ -25,7 +25,7 @@
                         <rect key="frame" x="76" y="38" width="42" height="20.5"/>
                         <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5B-nG-xNC">
@@ -58,6 +58,11 @@
                 </constraints>
             </tableViewCellContentView>
             <animations/>
+            <connections>
+                <outlet property="imageListView" destination="S8T-oz-84q" id="Iwm-Bc-mnO"/>
+                <outlet property="subNumberLabel" destination="c5B-nG-xNC" id="lnr-Ac-0b2"/>
+                <outlet property="themeNameLabel" destination="ILd-Fd-cvf" id="FAl-0k-Hj2"/>
+            </connections>
             <point key="canvasLocation" x="215" y="247"/>
         </tableViewCell>
     </objects>
