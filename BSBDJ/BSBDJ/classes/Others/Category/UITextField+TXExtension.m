@@ -8,7 +8,8 @@
 
 #import "UITextField+TXExtension.h"
 
-#define TXPlaceholderColorKey @"placeholderLabel.textColor"
+//#define TXPlaceholderColorKey @"placeholderLabel.textColor"
+static NSString * const TXPlaceholderColorKey = @"placeholderLabel.textColor";
 
 @implementation UITextField (TXExtension)
 

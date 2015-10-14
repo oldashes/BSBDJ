@@ -31,4 +31,7 @@
 #import "UIBarButtonItem+TXExtension.h"
 #import "UIView+TXExtension.h"
 #import "UITextField+TXExtension.h"
+#import "TXConst.h"
+#import "UIImageView+TXExtension.h"
+#import "UIImage+TXExtension.h"
 #endif /* PrefixHeader_pch */

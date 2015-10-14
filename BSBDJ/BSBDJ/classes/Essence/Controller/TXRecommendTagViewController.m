@@ -45,7 +45,7 @@ static NSString *const  ID = @"recommendTag";
     params[@"c"] = @"topic";
     
     // 发送请求
-    [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+    [[AFHTTPSessionManager manager] GET:TXRequestURL parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         
         self.recommendTags = [TXRecommendTag objectArrayWithKeyValuesArray:responseObject];
         [self.tableView reloadData];
