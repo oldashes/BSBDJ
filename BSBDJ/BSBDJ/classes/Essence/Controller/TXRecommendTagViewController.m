@@ -9,12 +9,15 @@
 #import "TXRecommendTagViewController.h"
 #import "TXRecommendTagViewCell.h"
 #import "TXRecommendTag.h"
-#import "AFNetworking.h"
-#import "MJExtension.h"
+#import <AFNetworking.h>
+#import <MJExtension.h>
+#import <SVProgressHUD.h>
 
 @interface TXRecommendTagViewController ()
 /** recommendTags */
 @property (nonatomic, strong) NSArray *recommendTags;
+/** sessionManager */
+@property (nonatomic, strong) AFHTTPSessionManager *manager;
 @end
 
 
@@ -37,24 +40,54 @@ static NSString *const  ID = @"recommendTag";
 
 - (void)loadNewRecommendTags{
     
-    // 请求参数
-    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+   // 声明一个弱引用对象，用于block，当self需要死掉时，不被block强引用而无法去死
+    __weak typeof(self) weakSelf = self;
     
-    params[@"a"] = @"tag_recommend";
-    params[@"action"] = @"sub";
-    params[@"c"] = @"topic";
+    [SVProgressHUD show];
     
-    // 发送请求
-    [[AFHTTPSessionManager manager] GET:TXRequestURL parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
-        self.recommendTags = [TXRecommendTag objectArrayWithKeyValuesArray:responseObject];
-        [self.tableView reloadData];
+        // 请求参数
+        NSMutableDictionary *params = [NSMutableDictionary dictionary];
         
-    } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
-        TXLog(@"%@ , loading failed", error);
-    }];
+        params[@"a"] = @"tag_recommend";
+        params[@"action"] = @"sub";
+        params[@"c"] = @"topic";
+        
+        // 发送请求
+        [self.manager GET:TXRequestURL parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+            
+            weakSelf.recommendTags = [TXRecommendTag objectArrayWithKeyValuesArray:responseObject];
+            [weakSelf.tableView reloadData];
+            
+            [SVProgressHUD dismiss];
+        } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
+            
+            
+            [SVProgressHUD showErrorWithStatus:@"loading failed"];
+            
+//            TXLog(@"%@ , loading failed", error);
+        }];
+    });
+    
+}
+
+- (void)dealloc{
+    // 返回则控制器死去
+}
+
+
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:YES];
+    
+    [SVProgressHUD dismiss];
     
     
+    // 使session无效，则所有任务取消
+    [self.manager invalidateSessionCancelingTasks:YES];
+    
+    // 取消所有任务
+//    [self.manager.tasks makeObjectsPerformSelector:@selector(cancel)];
 }
 
 
