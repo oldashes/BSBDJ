@@ -9,7 +9,8 @@
 #import "TXRecommendTagViewController.h"
 #import "TXRecommendTagViewCell.h"
 #import "TXRecommendTag.h"
-#import <AFNetworking.h>
+//#import <AFNetworking.h>
+#import "TXHTTPSessionManager.h"
 #import <MJExtension.h>
 #import <SVProgressHUD.h>
 
@@ -17,11 +18,19 @@
 /** recommendTags */
 @property (nonatomic, strong) NSArray *recommendTags;
 /** sessionManager */
-@property (nonatomic, strong) AFHTTPSessionManager *manager;
+@property (nonatomic, strong) TXHTTPSessionManager *manager;
 @end
 
 
 @implementation TXRecommendTagViewController
+
+// 懒加载
+- (TXHTTPSessionManager *)manager{
+    if (!_manager) {
+        _manager = [TXHTTPSessionManager manager];
+    }
+    return _manager;
+}
 
 static NSString *const  ID = @"recommendTag";
 - (void)viewDidLoad {
@@ -65,7 +74,6 @@ static NSString *const  ID = @"recommendTag";
             
             
             [SVProgressHUD showErrorWithStatus:@"loading failed"];
-            
 //            TXLog(@"%@ , loading failed", error);
         }];
     });

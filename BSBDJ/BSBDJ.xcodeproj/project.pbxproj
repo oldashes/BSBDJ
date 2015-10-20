@@ -11,6 +11,11 @@
 		CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9A91BBF831B002B6129 /* TXQuickLoginButton.m */; settings = {ASSET_TAGS = (); }; };
 		CF08B9AD1BC29180002B6129 /* TXLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */; settings = {ASSET_TAGS = (); }; };
 		CF1286FE1BC6BE0A00FF83FC /* UITextField+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
+		CF785F071BD00E5900A2CD79 /* TXMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F061BD00E5900A2CD79 /* TXMeCell.m */; settings = {ASSET_TAGS = (); }; };
+		CF785F0A1BD116A400A2CD79 /* TXMeFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F091BD116A400A2CD79 /* TXMeFooter.m */; settings = {ASSET_TAGS = (); }; };
+		CF785F0D1BD1177900A2CD79 /* TXMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F0C1BD1177900A2CD79 /* TXMeSquareButton.m */; settings = {ASSET_TAGS = (); }; };
+		CF785F101BD117E100A2CD79 /* TXMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F0F1BD117E100A2CD79 /* TXMeSquare.m */; settings = {ASSET_TAGS = (); }; };
+		CF94D6D01BD009B200674843 /* TXHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF94D6CF1BD009B200674843 /* TXHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
 		CFA194121BC8EBF7005BA24B /* TXRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194111BC8EBF7005BA24B /* TXRecommendTagViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CFA194161BC8EF3F005BA24B /* TXRecommendTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194141BC8EF3F005BA24B /* TXRecommendTagViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		CFA194171BC8EF3F005BA24B /* TXRecommendTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA194151BC8EF3F005BA24B /* TXRecommendTagViewCell.xib */; settings = {ASSET_TAGS = (); }; };
@@ -36,6 +41,8 @@
 		CFC71EAB1BABF5E80049F642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC71EAA1BABF5E80049F642 /* Assets.xcassets */; };
 		CFC71EB91BABF5E80049F642 /* BSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71EB81BABF5E80049F642 /* BSBDJTests.m */; };
 		CFC71EC41BABF5E80049F642 /* BSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71EC31BABF5E80049F642 /* BSBDJUITests.m */; };
+		CFDE58B31BD5E9280010E6CE /* TXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE58B11BD5E9280010E6CE /* TXWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CFDE58B41BD5E9280010E6CE /* TXWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDE58B21BD5E9280010E6CE /* TXWebViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +72,16 @@
 		CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLoginRegisterTextField.m; sourceTree = "<group>"; };
 		CF1286FC1BC6BE0A00FF83FC /* UITextField+TXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TXExtension.h"; sourceTree = "<group>"; };
 		CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TXExtension.m"; sourceTree = "<group>"; };
+		CF785F051BD00E5900A2CD79 /* TXMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMeCell.h; sourceTree = "<group>"; };
+		CF785F061BD00E5900A2CD79 /* TXMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXMeCell.m; sourceTree = "<group>"; };
+		CF785F081BD116A400A2CD79 /* TXMeFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMeFooter.h; sourceTree = "<group>"; };
+		CF785F091BD116A400A2CD79 /* TXMeFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXMeFooter.m; sourceTree = "<group>"; };
+		CF785F0B1BD1177900A2CD79 /* TXMeSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMeSquareButton.h; sourceTree = "<group>"; };
+		CF785F0C1BD1177900A2CD79 /* TXMeSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXMeSquareButton.m; sourceTree = "<group>"; };
+		CF785F0E1BD117E100A2CD79 /* TXMeSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMeSquare.h; sourceTree = "<group>"; };
+		CF785F0F1BD117E100A2CD79 /* TXMeSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXMeSquare.m; sourceTree = "<group>"; };
+		CF94D6CE1BD009B200674843 /* TXHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXHTTPSessionManager.h; sourceTree = "<group>"; };
+		CF94D6CF1BD009B200674843 /* TXHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHTTPSessionManager.m; sourceTree = "<group>"; };
 		CFA194101BC8EBF7005BA24B /* TXRecommendTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXRecommendTagViewController.h; sourceTree = "<group>"; };
 		CFA194111BC8EBF7005BA24B /* TXRecommendTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXRecommendTagViewController.m; sourceTree = "<group>"; };
 		CFA194131BC8EF3F005BA24B /* TXRecommendTagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXRecommendTagViewCell.h; sourceTree = "<group>"; };
@@ -115,6 +132,9 @@
 		CFC71EBF1BABF5E80049F642 /* BSBDJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSBDJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC71EC31BABF5E80049F642 /* BSBDJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSBDJUITests.m; sourceTree = "<group>"; };
 		CFC71EC51BABF5E80049F642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDE58B01BD5E9280010E6CE /* TXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXWebViewController.h; sourceTree = "<group>"; };
+		CFDE58B11BD5E9280010E6CE /* TXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXWebViewController.m; sourceTree = "<group>"; };
+		CFDE58B21BD5E9280010E6CE /* TXWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +280,9 @@
 				CFC47C471BB98A42001C6F50 /* TXMeViewController.m */,
 				CFC47C481BB98A42001C6F50 /* TXSettingViewController.h */,
 				CFC47C491BB98A42001C6F50 /* TXSettingViewController.m */,
+				CFDE58B01BD5E9280010E6CE /* TXWebViewController.h */,
+				CFDE58B11BD5E9280010E6CE /* TXWebViewController.m */,
+				CFDE58B21BD5E9280010E6CE /* TXWebViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -267,6 +290,8 @@
 		CFC47C4A1BB98A42001C6F50 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CF785F0E1BD117E100A2CD79 /* TXMeSquare.h */,
+				CF785F0F1BD117E100A2CD79 /* TXMeSquare.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -274,6 +299,12 @@
 		CFC47C4B1BB98A42001C6F50 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CF785F051BD00E5900A2CD79 /* TXMeCell.h */,
+				CF785F061BD00E5900A2CD79 /* TXMeCell.m */,
+				CF785F081BD116A400A2CD79 /* TXMeFooter.h */,
+				CF785F091BD116A400A2CD79 /* TXMeFooter.m */,
+				CF785F0B1BD1177900A2CD79 /* TXMeSquareButton.h */,
+				CF785F0C1BD1177900A2CD79 /* TXMeSquareButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -324,6 +355,8 @@
 				CFC47C611BB98A42001C6F50 /* PrefixHeader.pch */,
 				CFBAD32F1BCA986C004343BA /* TXConst.h */,
 				CFBAD3301BCA986C004343BA /* TXConst.m */,
+				CF94D6CE1BD009B200674843 /* TXHTTPSessionManager.h */,
+				CF94D6CF1BD009B200674843 /* TXHTTPSessionManager.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -554,6 +587,7 @@
 				CFC71EAB1BABF5E80049F642 /* Assets.xcassets in Resources */,
 				CFC71EA91BABF5E80049F642 /* Main.storyboard in Resources */,
 				CFA3A19F1BBE719800A54997 /* TXFriendTrendsViewController.storyboard in Resources */,
+				CFDE58B41BD5E9280010E6CE /* TXWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,20 +663,26 @@
 				CFC47C661BB98A42001C6F50 /* TXFriendTrendsViewController.m in Sources */,
 				CFC47C691BB98A42001C6F50 /* TXNewViewController.m in Sources */,
 				CFA194161BC8EF3F005BA24B /* TXRecommendTagViewCell.m in Sources */,
+				CF785F071BD00E5900A2CD79 /* TXMeCell.m in Sources */,
 				CFC47C6B1BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m in Sources */,
 				CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */,
+				CF785F0D1BD1177900A2CD79 /* TXMeSquareButton.m in Sources */,
 				CFC47C6A1BB98A42001C6F50 /* AppDelegate.m in Sources */,
 				CFC47C6C1BB98A42001C6F50 /* UIView+TXExtension.m in Sources */,
 				CFBAD3311BCA986C004343BA /* TXConst.m in Sources */,
 				CFC47C6D1BB98A42001C6F50 /* TXNavigationController.m in Sources */,
 				CFC47C681BB98A42001C6F50 /* TXSettingViewController.m in Sources */,
+				CF785F0A1BD116A400A2CD79 /* TXMeFooter.m in Sources */,
 				CFA3A1A21BBE8BF100A54997 /* TXLoginRegisteViewController.m in Sources */,
 				CFA1941A1BC93B54005BA24B /* TXRecommendTag.m in Sources */,
 				CFA194121BC8EBF7005BA24B /* TXRecommendTagViewController.m in Sources */,
+				CF94D6D01BD009B200674843 /* TXHTTPSessionManager.m in Sources */,
+				CFDE58B31BD5E9280010E6CE /* TXWebViewController.m in Sources */,
 				CFC47C671BB98A42001C6F50 /* TXMeViewController.m in Sources */,
 				CFBAD3341BCCC83D004343BA /* UIImage+TXExtension.m in Sources */,
 				CFC47C651BB98A42001C6F50 /* TXEssenceViewController.m in Sources */,
 				CFC47C701BB98A42001C6F50 /* TXTabBar.m in Sources */,
+				CF785F101BD117E100A2CD79 /* TXMeSquare.m in Sources */,
 				CFC47C6F1BB98A42001C6F50 /* main.m in Sources */,
 				CFBAD3371BCD3B02004343BA /* UIImageView+TXExtension.m in Sources */,
 				CF08B9AD1BC29180002B6129 /* TXLoginRegisterTextField.m in Sources */,

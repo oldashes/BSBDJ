@@ -9,3 +9,5 @@
 #import <UIKit/UIKit.h>
 
 UIKIT_EXTERN NSString * const TXRequestURL;
+UIKIT_EXTERN CGFloat const TXMargin;
+UIKIT_EXTERN CGFloat const TXGroupFirstCellY;

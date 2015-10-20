@@ -26,6 +26,8 @@
 #define TXGrayColor(v) TXColor(v, v, v)
 #define TXCommonBgColor TXGrayColor(206)
 
+#define TXWriteToPlist(obj, filename) [obj writeToFile:[NSString stringWithFormat:@"/Users/Pacino/Desktop/%@.plist", filename] atomically:YES];
+
 #define TXLogFunc TXLog(@"%s", __func__) 
 
 #import "UIBarButtonItem+TXExtension.h"
