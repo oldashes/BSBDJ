@@ -8,8 +8,8 @@
             <connections>
                 <outlet property="backItem" destination="05m-gd-nhn" id="Ufu-7Q-kDZ"/>
                 <outlet property="forwardItem" destination="TuM-HE-eT0" id="CC3-kH-mjH"/>
-                <outlet property="refreshItem" destination="ed3-pN-deE" id="Mhu-XU-TUC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="g1S-g7-R8f" id="pph-eY-Qip"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -43,7 +43,11 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem systemItem="flexibleSpace" id="NRf-I8-Ekg"/>
-                        <barButtonItem systemItem="refresh" id="ed3-pN-deE"/>
+                        <barButtonItem systemItem="refresh" id="ed3-pN-deE">
+                            <connections>
+                                <action selector="reload" destination="-1" id="7iL-78-2HW"/>
+                            </connections>
+                        </barButtonItem>
                     </items>
                 </toolbar>
             </subviews>

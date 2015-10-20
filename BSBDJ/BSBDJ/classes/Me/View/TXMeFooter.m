@@ -12,6 +12,8 @@
 #import "TXMeSquareButton.h"
 #import <MJExtension.h>
 #import <UIButton+WebCache.h>
+#import "TXWebViewController.h"
+
 @implementation TXMeFooter
 
 /*
@@ -109,6 +111,13 @@
         UITabBarController *root = (UITabBarController *)self.window.rootViewController;
         UINavigationController *nav = root.selectedViewController;
         
+        TXWebViewController *web = [[TXWebViewController alloc] init];
+        web.url = url;
+        web.navigationItem.title = btn.square.name;
+        [nav pushViewController:web animated:YES];
+    } else
+    {
+        TXLog(@"其他");
     }
 }
 

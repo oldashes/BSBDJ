@@ -55,7 +55,7 @@ static NSString * const TXMeCellId = @"me";
 
 #pragma mark - 监听
 - (void)settingClick{
-    TXSettingViewController *setting = [[TXSettingViewController alloc] init];
+    TXSettingViewController *setting = [[TXSettingViewController alloc] initWithStyle:UITableViewStyleGrouped];
     
     [self.navigationController pushViewController:setting animated:YES];
     TXLogFunc;
