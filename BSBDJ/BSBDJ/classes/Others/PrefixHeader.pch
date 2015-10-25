@@ -36,4 +36,6 @@
 #import "TXConst.h"
 #import "UIImageView+TXExtension.h"
 #import "UIImage+TXExtension.h"
+#import "NSString+TXExtension.h"
+
 #endif /* PrefixHeader_pch */

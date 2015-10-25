@@ -11,6 +11,11 @@
 		CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9A91BBF831B002B6129 /* TXQuickLoginButton.m */; settings = {ASSET_TAGS = (); }; };
 		CF08B9AD1BC29180002B6129 /* TXLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */; settings = {ASSET_TAGS = (); }; };
 		CF1286FE1BC6BE0A00FF83FC /* UITextField+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
+		CF2159371BD773E900F00DDD /* NSString+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159361BD773E900F00DDD /* NSString+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
+		CF21593A1BD7CF2C00F00DDD /* TXClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159391BD7CF2C00F00DDD /* TXClearCacheCell.m */; settings = {ASSET_TAGS = (); }; };
+		CF21593D1BD7CF3F00F00DDD /* TXSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF21593C1BD7CF3F00F00DDD /* TXSettingCell.m */; settings = {ASSET_TAGS = (); }; };
+		CF2159441BD7CF9F00F00DDD /* TXOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159421BD7CF9F00F00DDD /* TXOtherCell.m */; settings = {ASSET_TAGS = (); }; };
+		CF2159451BD7CF9F00F00DDD /* TXOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2159431BD7CF9F00F00DDD /* TXOtherCell.xib */; settings = {ASSET_TAGS = (); }; };
 		CF785F071BD00E5900A2CD79 /* TXMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F061BD00E5900A2CD79 /* TXMeCell.m */; settings = {ASSET_TAGS = (); }; };
 		CF785F0A1BD116A400A2CD79 /* TXMeFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F091BD116A400A2CD79 /* TXMeFooter.m */; settings = {ASSET_TAGS = (); }; };
 		CF785F0D1BD1177900A2CD79 /* TXMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F0C1BD1177900A2CD79 /* TXMeSquareButton.m */; settings = {ASSET_TAGS = (); }; };
@@ -72,6 +77,15 @@
 		CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLoginRegisterTextField.m; sourceTree = "<group>"; };
 		CF1286FC1BC6BE0A00FF83FC /* UITextField+TXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TXExtension.h"; sourceTree = "<group>"; };
 		CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TXExtension.m"; sourceTree = "<group>"; };
+		CF2159351BD773E900F00DDD /* NSString+TXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TXExtension.h"; sourceTree = "<group>"; };
+		CF2159361BD773E900F00DDD /* NSString+TXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TXExtension.m"; sourceTree = "<group>"; };
+		CF2159381BD7CF2C00F00DDD /* TXClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXClearCacheCell.h; sourceTree = "<group>"; };
+		CF2159391BD7CF2C00F00DDD /* TXClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXClearCacheCell.m; sourceTree = "<group>"; };
+		CF21593B1BD7CF3F00F00DDD /* TXSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSettingCell.h; sourceTree = "<group>"; };
+		CF21593C1BD7CF3F00F00DDD /* TXSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSettingCell.m; sourceTree = "<group>"; };
+		CF2159411BD7CF9F00F00DDD /* TXOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXOtherCell.h; sourceTree = "<group>"; };
+		CF2159421BD7CF9F00F00DDD /* TXOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXOtherCell.m; sourceTree = "<group>"; };
+		CF2159431BD7CF9F00F00DDD /* TXOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXOtherCell.xib; sourceTree = "<group>"; };
 		CF785F051BD00E5900A2CD79 /* TXMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMeCell.h; sourceTree = "<group>"; };
 		CF785F061BD00E5900A2CD79 /* TXMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXMeCell.m; sourceTree = "<group>"; };
 		CF785F081BD116A400A2CD79 /* TXMeFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXMeFooter.h; sourceTree = "<group>"; };
@@ -305,6 +319,13 @@
 				CF785F091BD116A400A2CD79 /* TXMeFooter.m */,
 				CF785F0B1BD1177900A2CD79 /* TXMeSquareButton.h */,
 				CF785F0C1BD1177900A2CD79 /* TXMeSquareButton.m */,
+				CF2159381BD7CF2C00F00DDD /* TXClearCacheCell.h */,
+				CF2159391BD7CF2C00F00DDD /* TXClearCacheCell.m */,
+				CF21593B1BD7CF3F00F00DDD /* TXSettingCell.h */,
+				CF21593C1BD7CF3F00F00DDD /* TXSettingCell.m */,
+				CF2159411BD7CF9F00F00DDD /* TXOtherCell.h */,
+				CF2159421BD7CF9F00F00DDD /* TXOtherCell.m */,
+				CF2159431BD7CF9F00F00DDD /* TXOtherCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,6 +395,8 @@
 				CFBAD3331BCCC83D004343BA /* UIImage+TXExtension.m */,
 				CFBAD3351BCD3B02004343BA /* UIImageView+TXExtension.h */,
 				CFBAD3361BCD3B02004343BA /* UIImageView+TXExtension.m */,
+				CF2159351BD773E900F00DDD /* NSString+TXExtension.h */,
+				CF2159361BD773E900F00DDD /* NSString+TXExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -585,6 +608,7 @@
 			files = (
 				CFA194171BC8EF3F005BA24B /* TXRecommendTagViewCell.xib in Resources */,
 				CFC71EAB1BABF5E80049F642 /* Assets.xcassets in Resources */,
+				CF2159451BD7CF9F00F00DDD /* TXOtherCell.xib in Resources */,
 				CFC71EA91BABF5E80049F642 /* Main.storyboard in Resources */,
 				CFA3A19F1BBE719800A54997 /* TXFriendTrendsViewController.storyboard in Resources */,
 				CFDE58B41BD5E9280010E6CE /* TXWebViewController.xib in Resources */,
@@ -666,12 +690,14 @@
 				CF785F071BD00E5900A2CD79 /* TXMeCell.m in Sources */,
 				CFC47C6B1BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m in Sources */,
 				CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */,
+				CF21593A1BD7CF2C00F00DDD /* TXClearCacheCell.m in Sources */,
 				CF785F0D1BD1177900A2CD79 /* TXMeSquareButton.m in Sources */,
 				CFC47C6A1BB98A42001C6F50 /* AppDelegate.m in Sources */,
 				CFC47C6C1BB98A42001C6F50 /* UIView+TXExtension.m in Sources */,
 				CFBAD3311BCA986C004343BA /* TXConst.m in Sources */,
 				CFC47C6D1BB98A42001C6F50 /* TXNavigationController.m in Sources */,
 				CFC47C681BB98A42001C6F50 /* TXSettingViewController.m in Sources */,
+				CF2159371BD773E900F00DDD /* NSString+TXExtension.m in Sources */,
 				CF785F0A1BD116A400A2CD79 /* TXMeFooter.m in Sources */,
 				CFA3A1A21BBE8BF100A54997 /* TXLoginRegisteViewController.m in Sources */,
 				CFA1941A1BC93B54005BA24B /* TXRecommendTag.m in Sources */,
@@ -680,9 +706,11 @@
 				CFDE58B31BD5E9280010E6CE /* TXWebViewController.m in Sources */,
 				CFC47C671BB98A42001C6F50 /* TXMeViewController.m in Sources */,
 				CFBAD3341BCCC83D004343BA /* UIImage+TXExtension.m in Sources */,
+				CF2159441BD7CF9F00F00DDD /* TXOtherCell.m in Sources */,
 				CFC47C651BB98A42001C6F50 /* TXEssenceViewController.m in Sources */,
 				CFC47C701BB98A42001C6F50 /* TXTabBar.m in Sources */,
 				CF785F101BD117E100A2CD79 /* TXMeSquare.m in Sources */,
+				CF21593D1BD7CF3F00F00DDD /* TXSettingCell.m in Sources */,
 				CFC47C6F1BB98A42001C6F50 /* main.m in Sources */,
 				CFBAD3371BCD3B02004343BA /* UIImageView+TXExtension.m in Sources */,
 				CF08B9AD1BC29180002B6129 /* TXLoginRegisterTextField.m in Sources */,
