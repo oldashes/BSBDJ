@@ -8,46 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		347E817EEBB62995D876B510 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 749E06B294EFDEA90BE98915 /* libPods.a */; };
-		CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9A91BBF831B002B6129 /* TXQuickLoginButton.m */; settings = {ASSET_TAGS = (); }; };
-		CF08B9AD1BC29180002B6129 /* TXLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */; settings = {ASSET_TAGS = (); }; };
-		CF1286FE1BC6BE0A00FF83FC /* UITextField+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
-		CF2159371BD773E900F00DDD /* NSString+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159361BD773E900F00DDD /* NSString+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
-		CF21593A1BD7CF2C00F00DDD /* TXClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159391BD7CF2C00F00DDD /* TXClearCacheCell.m */; settings = {ASSET_TAGS = (); }; };
-		CF21593D1BD7CF3F00F00DDD /* TXSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF21593C1BD7CF3F00F00DDD /* TXSettingCell.m */; settings = {ASSET_TAGS = (); }; };
-		CF2159441BD7CF9F00F00DDD /* TXOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159421BD7CF9F00F00DDD /* TXOtherCell.m */; settings = {ASSET_TAGS = (); }; };
-		CF2159451BD7CF9F00F00DDD /* TXOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2159431BD7CF9F00F00DDD /* TXOtherCell.xib */; settings = {ASSET_TAGS = (); }; };
-		CF785F071BD00E5900A2CD79 /* TXMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F061BD00E5900A2CD79 /* TXMeCell.m */; settings = {ASSET_TAGS = (); }; };
-		CF785F0A1BD116A400A2CD79 /* TXMeFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F091BD116A400A2CD79 /* TXMeFooter.m */; settings = {ASSET_TAGS = (); }; };
-		CF785F0D1BD1177900A2CD79 /* TXMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F0C1BD1177900A2CD79 /* TXMeSquareButton.m */; settings = {ASSET_TAGS = (); }; };
-		CF785F101BD117E100A2CD79 /* TXMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F0F1BD117E100A2CD79 /* TXMeSquare.m */; settings = {ASSET_TAGS = (); }; };
-		CF94D6D01BD009B200674843 /* TXHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF94D6CF1BD009B200674843 /* TXHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
-		CFA194121BC8EBF7005BA24B /* TXRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194111BC8EBF7005BA24B /* TXRecommendTagViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFA194161BC8EF3F005BA24B /* TXRecommendTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194141BC8EF3F005BA24B /* TXRecommendTagViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		CFA194171BC8EF3F005BA24B /* TXRecommendTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA194151BC8EF3F005BA24B /* TXRecommendTagViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		CFA1941A1BC93B54005BA24B /* TXRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194191BC93B54005BA24B /* TXRecommendTag.m */; settings = {ASSET_TAGS = (); }; };
-		CFA3A19F1BBE719800A54997 /* TXFriendTrendsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA3A19E1BBE719800A54997 /* TXFriendTrendsViewController.storyboard */; settings = {ASSET_TAGS = (); }; };
-		CFA3A1A21BBE8BF100A54997 /* TXLoginRegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA3A1A11BBE8BF100A54997 /* TXLoginRegisteViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFBAD3311BCA986C004343BA /* TXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBAD3301BCA986C004343BA /* TXConst.m */; settings = {ASSET_TAGS = (); }; };
-		CFBAD3341BCCC83D004343BA /* UIImage+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBAD3331BCCC83D004343BA /* UIImage+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
-		CFBAD3371BCD3B02004343BA /* UIImageView+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBAD3361BCD3B02004343BA /* UIImageView+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C651BB98A42001C6F50 /* TXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C3B1BB98A42001C6F50 /* TXEssenceViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C661BB98A42001C6F50 /* TXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C411BB98A42001C6F50 /* TXFriendTrendsViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C671BB98A42001C6F50 /* TXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C471BB98A42001C6F50 /* TXMeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C681BB98A42001C6F50 /* TXSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C491BB98A42001C6F50 /* TXSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C691BB98A42001C6F50 /* TXNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C4F1BB98A42001C6F50 /* TXNewViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C6A1BB98A42001C6F50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C541BB98A42001C6F50 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C6B1BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C571BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C6C1BB98A42001C6F50 /* UIView+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C591BB98A42001C6F50 /* UIView+TXExtension.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C6D1BB98A42001C6F50 /* TXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C5C1BB98A42001C6F50 /* TXNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C6E1BB98A42001C6F50 /* TXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C5E1BB98A42001C6F50 /* TXTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C6F1BB98A42001C6F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C5F1BB98A42001C6F50 /* main.m */; settings = {ASSET_TAGS = (); }; };
-		CFC47C701BB98A42001C6F50 /* TXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C641BB98A42001C6F50 /* TXTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9A91BBF831B002B6129 /* TXQuickLoginButton.m */; };
+		CF08B9AD1BC29180002B6129 /* TXLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08B9AC1BC29180002B6129 /* TXLoginRegisterTextField.m */; };
+		CF1286FE1BC6BE0A00FF83FC /* UITextField+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1286FD1BC6BE0A00FF83FC /* UITextField+TXExtension.m */; };
+		CF2159371BD773E900F00DDD /* NSString+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159361BD773E900F00DDD /* NSString+TXExtension.m */; };
+		CF21593A1BD7CF2C00F00DDD /* TXClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159391BD7CF2C00F00DDD /* TXClearCacheCell.m */; };
+		CF21593D1BD7CF3F00F00DDD /* TXSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF21593C1BD7CF3F00F00DDD /* TXSettingCell.m */; };
+		CF2159441BD7CF9F00F00DDD /* TXOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2159421BD7CF9F00F00DDD /* TXOtherCell.m */; };
+		CF2159451BD7CF9F00F00DDD /* TXOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2159431BD7CF9F00F00DDD /* TXOtherCell.xib */; };
+		CF785F071BD00E5900A2CD79 /* TXMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F061BD00E5900A2CD79 /* TXMeCell.m */; };
+		CF785F0A1BD116A400A2CD79 /* TXMeFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F091BD116A400A2CD79 /* TXMeFooter.m */; };
+		CF785F0D1BD1177900A2CD79 /* TXMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F0C1BD1177900A2CD79 /* TXMeSquareButton.m */; };
+		CF785F101BD117E100A2CD79 /* TXMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = CF785F0F1BD117E100A2CD79 /* TXMeSquare.m */; };
+		CF94D6D01BD009B200674843 /* TXHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF94D6CF1BD009B200674843 /* TXHTTPSessionManager.m */; };
+		CFA194121BC8EBF7005BA24B /* TXRecommendTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194111BC8EBF7005BA24B /* TXRecommendTagViewController.m */; };
+		CFA194161BC8EF3F005BA24B /* TXRecommendTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194141BC8EF3F005BA24B /* TXRecommendTagViewCell.m */; };
+		CFA194171BC8EF3F005BA24B /* TXRecommendTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA194151BC8EF3F005BA24B /* TXRecommendTagViewCell.xib */; };
+		CFA1941A1BC93B54005BA24B /* TXRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA194191BC93B54005BA24B /* TXRecommendTag.m */; };
+		CFA3A19F1BBE719800A54997 /* TXFriendTrendsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA3A19E1BBE719800A54997 /* TXFriendTrendsViewController.storyboard */; };
+		CFA3A1A21BBE8BF100A54997 /* TXLoginRegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA3A1A11BBE8BF100A54997 /* TXLoginRegisteViewController.m */; };
+		CFBAD3311BCA986C004343BA /* TXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBAD3301BCA986C004343BA /* TXConst.m */; };
+		CFBAD3341BCCC83D004343BA /* UIImage+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBAD3331BCCC83D004343BA /* UIImage+TXExtension.m */; };
+		CFBAD3371BCD3B02004343BA /* UIImageView+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBAD3361BCD3B02004343BA /* UIImageView+TXExtension.m */; };
+		CFC47C651BB98A42001C6F50 /* TXEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C3B1BB98A42001C6F50 /* TXEssenceViewController.m */; };
+		CFC47C661BB98A42001C6F50 /* TXFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C411BB98A42001C6F50 /* TXFriendTrendsViewController.m */; };
+		CFC47C671BB98A42001C6F50 /* TXMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C471BB98A42001C6F50 /* TXMeViewController.m */; };
+		CFC47C681BB98A42001C6F50 /* TXSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C491BB98A42001C6F50 /* TXSettingViewController.m */; };
+		CFC47C691BB98A42001C6F50 /* TXNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C4F1BB98A42001C6F50 /* TXNewViewController.m */; };
+		CFC47C6A1BB98A42001C6F50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C541BB98A42001C6F50 /* AppDelegate.m */; };
+		CFC47C6B1BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C571BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m */; };
+		CFC47C6C1BB98A42001C6F50 /* UIView+TXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C591BB98A42001C6F50 /* UIView+TXExtension.m */; };
+		CFC47C6D1BB98A42001C6F50 /* TXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C5C1BB98A42001C6F50 /* TXNavigationController.m */; };
+		CFC47C6E1BB98A42001C6F50 /* TXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C5E1BB98A42001C6F50 /* TXTabBarController.m */; };
+		CFC47C6F1BB98A42001C6F50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C5F1BB98A42001C6F50 /* main.m */; };
+		CFC47C701BB98A42001C6F50 /* TXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC47C641BB98A42001C6F50 /* TXTabBar.m */; };
 		CFC71EA91BABF5E80049F642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC71EA71BABF5E80049F642 /* Main.storyboard */; };
 		CFC71EAB1BABF5E80049F642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC71EAA1BABF5E80049F642 /* Assets.xcassets */; };
 		CFC71EB91BABF5E80049F642 /* BSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71EB81BABF5E80049F642 /* BSBDJTests.m */; };
 		CFC71EC41BABF5E80049F642 /* BSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC71EC31BABF5E80049F642 /* BSBDJUITests.m */; };
-		CFDE58B31BD5E9280010E6CE /* TXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE58B11BD5E9280010E6CE /* TXWebViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFDE58B41BD5E9280010E6CE /* TXWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDE58B21BD5E9280010E6CE /* TXWebViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CFDE58B31BD5E9280010E6CE /* TXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE58B11BD5E9280010E6CE /* TXWebViewController.m */; };
+		CFDE58B41BD5E9280010E6CE /* TXWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDE58B21BD5E9280010E6CE /* TXWebViewController.xib */; };
+		CFE80A9E1BDE76880062B57D /* TXTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE80A9D1BDE76870062B57D /* TXTitleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +150,8 @@
 		CFDE58B01BD5E9280010E6CE /* TXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXWebViewController.h; sourceTree = "<group>"; };
 		CFDE58B11BD5E9280010E6CE /* TXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXWebViewController.m; sourceTree = "<group>"; };
 		CFDE58B21BD5E9280010E6CE /* TXWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXWebViewController.xib; sourceTree = "<group>"; };
+		CFE80A9C1BDE76870062B57D /* TXTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTitleButton.h; sourceTree = "<group>"; };
+		CFE80A9D1BDE76870062B57D /* TXTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTitleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +236,8 @@
 				CFA194131BC8EF3F005BA24B /* TXRecommendTagViewCell.h */,
 				CFA194141BC8EF3F005BA24B /* TXRecommendTagViewCell.m */,
 				CFA194151BC8EF3F005BA24B /* TXRecommendTagViewCell.xib */,
+				CFE80A9C1BDE76870062B57D /* TXTitleButton.h */,
+				CFE80A9D1BDE76870062B57D /* TXTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -705,6 +710,7 @@
 				CF94D6D01BD009B200674843 /* TXHTTPSessionManager.m in Sources */,
 				CFDE58B31BD5E9280010E6CE /* TXWebViewController.m in Sources */,
 				CFC47C671BB98A42001C6F50 /* TXMeViewController.m in Sources */,
+				CFE80A9E1BDE76880062B57D /* TXTitleButton.m in Sources */,
 				CFBAD3341BCCC83D004343BA /* UIImage+TXExtension.m in Sources */,
 				CF2159441BD7CF9F00F00DDD /* TXOtherCell.m in Sources */,
 				CFC47C651BB98A42001C6F50 /* TXEssenceViewController.m in Sources */,
