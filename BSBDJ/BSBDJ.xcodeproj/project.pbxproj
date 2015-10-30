@@ -49,6 +49,14 @@
 		CFDE58B31BD5E9280010E6CE /* TXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDE58B11BD5E9280010E6CE /* TXWebViewController.m */; };
 		CFDE58B41BD5E9280010E6CE /* TXWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFDE58B21BD5E9280010E6CE /* TXWebViewController.xib */; };
 		CFE80A9E1BDE76880062B57D /* TXTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE80A9D1BDE76870062B57D /* TXTitleButton.m */; };
+		CFEB2B5C1BE09F4A00AADAB7 /* TXAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB2B5B1BE09F4A00AADAB7 /* TXAllViewController.m */; };
+		CFEB2B5F1BE09F5F00AADAB7 /* TXVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB2B5E1BE09F5F00AADAB7 /* TXVideoViewController.m */; };
+		CFEB2B621BE09F6D00AADAB7 /* TXVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB2B611BE09F6D00AADAB7 /* TXVoiceViewController.m */; };
+		CFEB2B651BE09F8100AADAB7 /* TXWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB2B641BE09F8100AADAB7 /* TXWordViewController.m */; };
+		CFEB2B691BE09FD700AADAB7 /* TXPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB2B681BE09FD700AADAB7 /* TXPictureViewController.m */; };
+		CFEB2B6C1BE13D7E00AADAB7 /* TXTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB2B6B1BE13D7E00AADAB7 /* TXTopic.m */; };
+		CFEB2B701BE28A9B00AADAB7 /* TXTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB2B6E1BE28A9B00AADAB7 /* TXTopicCell.m */; };
+		CFEB2B711BE28A9B00AADAB7 /* TXTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEB2B6F1BE28A9B00AADAB7 /* TXTopicCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +160,21 @@
 		CFDE58B21BD5E9280010E6CE /* TXWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXWebViewController.xib; sourceTree = "<group>"; };
 		CFE80A9C1BDE76870062B57D /* TXTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTitleButton.h; sourceTree = "<group>"; };
 		CFE80A9D1BDE76870062B57D /* TXTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTitleButton.m; sourceTree = "<group>"; };
+		CFEB2B5A1BE09F4A00AADAB7 /* TXAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXAllViewController.h; sourceTree = "<group>"; };
+		CFEB2B5B1BE09F4A00AADAB7 /* TXAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXAllViewController.m; sourceTree = "<group>"; };
+		CFEB2B5D1BE09F5F00AADAB7 /* TXVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXVideoViewController.h; sourceTree = "<group>"; };
+		CFEB2B5E1BE09F5F00AADAB7 /* TXVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXVideoViewController.m; sourceTree = "<group>"; };
+		CFEB2B601BE09F6D00AADAB7 /* TXVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXVoiceViewController.h; sourceTree = "<group>"; };
+		CFEB2B611BE09F6D00AADAB7 /* TXVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXVoiceViewController.m; sourceTree = "<group>"; };
+		CFEB2B631BE09F8100AADAB7 /* TXWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXWordViewController.h; sourceTree = "<group>"; };
+		CFEB2B641BE09F8100AADAB7 /* TXWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXWordViewController.m; sourceTree = "<group>"; };
+		CFEB2B671BE09FD700AADAB7 /* TXPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXPictureViewController.h; sourceTree = "<group>"; };
+		CFEB2B681BE09FD700AADAB7 /* TXPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXPictureViewController.m; sourceTree = "<group>"; };
+		CFEB2B6A1BE13D7E00AADAB7 /* TXTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTopic.h; sourceTree = "<group>"; };
+		CFEB2B6B1BE13D7E00AADAB7 /* TXTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTopic.m; sourceTree = "<group>"; };
+		CFEB2B6D1BE28A9B00AADAB7 /* TXTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTopicCell.h; sourceTree = "<group>"; };
+		CFEB2B6E1BE28A9B00AADAB7 /* TXTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTopicCell.m; sourceTree = "<group>"; };
+		CFEB2B6F1BE28A9B00AADAB7 /* TXTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TXTopicCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +236,7 @@
 		CFC47C391BB98A42001C6F50 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CFEB2B661BE09F8A00AADAB7 /* Topic */,
 				CFC47C3A1BB98A42001C6F50 /* TXEssenceViewController.h */,
 				CFC47C3B1BB98A42001C6F50 /* TXEssenceViewController.m */,
 				CFA194101BC8EBF7005BA24B /* TXRecommendTagViewController.h */,
@@ -226,6 +250,8 @@
 			children = (
 				CFA194181BC93B54005BA24B /* TXRecommendTag.h */,
 				CFA194191BC93B54005BA24B /* TXRecommendTag.m */,
+				CFEB2B6A1BE13D7E00AADAB7 /* TXTopic.h */,
+				CFEB2B6B1BE13D7E00AADAB7 /* TXTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -238,6 +264,9 @@
 				CFA194151BC8EF3F005BA24B /* TXRecommendTagViewCell.xib */,
 				CFE80A9C1BDE76870062B57D /* TXTitleButton.h */,
 				CFE80A9D1BDE76870062B57D /* TXTitleButton.m */,
+				CFEB2B6D1BE28A9B00AADAB7 /* TXTopicCell.h */,
+				CFEB2B6E1BE28A9B00AADAB7 /* TXTopicCell.m */,
+				CFEB2B6F1BE28A9B00AADAB7 /* TXTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -492,6 +521,23 @@
 			path = BSBDJUITests;
 			sourceTree = "<group>";
 		};
+		CFEB2B661BE09F8A00AADAB7 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				CFEB2B5A1BE09F4A00AADAB7 /* TXAllViewController.h */,
+				CFEB2B5B1BE09F4A00AADAB7 /* TXAllViewController.m */,
+				CFEB2B5D1BE09F5F00AADAB7 /* TXVideoViewController.h */,
+				CFEB2B5E1BE09F5F00AADAB7 /* TXVideoViewController.m */,
+				CFEB2B601BE09F6D00AADAB7 /* TXVoiceViewController.h */,
+				CFEB2B611BE09F6D00AADAB7 /* TXVoiceViewController.m */,
+				CFEB2B631BE09F8100AADAB7 /* TXWordViewController.h */,
+				CFEB2B641BE09F8100AADAB7 /* TXWordViewController.m */,
+				CFEB2B671BE09FD700AADAB7 /* TXPictureViewController.h */,
+				CFEB2B681BE09FD700AADAB7 /* TXPictureViewController.m */,
+			);
+			name = Topic;
+			sourceTree = "<group>";
+		};
 		F6D3B4ADC313F5CE76FF5D21 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -612,6 +658,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA194171BC8EF3F005BA24B /* TXRecommendTagViewCell.xib in Resources */,
+				CFEB2B711BE28A9B00AADAB7 /* TXTopicCell.xib in Resources */,
 				CFC71EAB1BABF5E80049F642 /* Assets.xcassets in Resources */,
 				CF2159451BD7CF9F00F00DDD /* TXOtherCell.xib in Resources */,
 				CFC71EA91BABF5E80049F642 /* Main.storyboard in Resources */,
@@ -692,6 +739,7 @@
 				CFC47C661BB98A42001C6F50 /* TXFriendTrendsViewController.m in Sources */,
 				CFC47C691BB98A42001C6F50 /* TXNewViewController.m in Sources */,
 				CFA194161BC8EF3F005BA24B /* TXRecommendTagViewCell.m in Sources */,
+				CFEB2B701BE28A9B00AADAB7 /* TXTopicCell.m in Sources */,
 				CF785F071BD00E5900A2CD79 /* TXMeCell.m in Sources */,
 				CFC47C6B1BB98A42001C6F50 /* UIBarButtonItem+TXExtension.m in Sources */,
 				CF08B9AA1BBF831B002B6129 /* TXQuickLoginButton.m in Sources */,
@@ -700,11 +748,15 @@
 				CFC47C6A1BB98A42001C6F50 /* AppDelegate.m in Sources */,
 				CFC47C6C1BB98A42001C6F50 /* UIView+TXExtension.m in Sources */,
 				CFBAD3311BCA986C004343BA /* TXConst.m in Sources */,
+				CFEB2B621BE09F6D00AADAB7 /* TXVoiceViewController.m in Sources */,
 				CFC47C6D1BB98A42001C6F50 /* TXNavigationController.m in Sources */,
+				CFEB2B691BE09FD700AADAB7 /* TXPictureViewController.m in Sources */,
 				CFC47C681BB98A42001C6F50 /* TXSettingViewController.m in Sources */,
 				CF2159371BD773E900F00DDD /* NSString+TXExtension.m in Sources */,
 				CF785F0A1BD116A400A2CD79 /* TXMeFooter.m in Sources */,
 				CFA3A1A21BBE8BF100A54997 /* TXLoginRegisteViewController.m in Sources */,
+				CFEB2B5C1BE09F4A00AADAB7 /* TXAllViewController.m in Sources */,
+				CFEB2B6C1BE13D7E00AADAB7 /* TXTopic.m in Sources */,
 				CFA1941A1BC93B54005BA24B /* TXRecommendTag.m in Sources */,
 				CFA194121BC8EBF7005BA24B /* TXRecommendTagViewController.m in Sources */,
 				CF94D6D01BD009B200674843 /* TXHTTPSessionManager.m in Sources */,
@@ -713,8 +765,10 @@
 				CFE80A9E1BDE76880062B57D /* TXTitleButton.m in Sources */,
 				CFBAD3341BCCC83D004343BA /* UIImage+TXExtension.m in Sources */,
 				CF2159441BD7CF9F00F00DDD /* TXOtherCell.m in Sources */,
+				CFEB2B651BE09F8100AADAB7 /* TXWordViewController.m in Sources */,
 				CFC47C651BB98A42001C6F50 /* TXEssenceViewController.m in Sources */,
 				CFC47C701BB98A42001C6F50 /* TXTabBar.m in Sources */,
+				CFEB2B5F1BE09F5F00AADAB7 /* TXVideoViewController.m in Sources */,
 				CF785F101BD117E100A2CD79 /* TXMeSquare.m in Sources */,
 				CF21593D1BD7CF3F00F00DDD /* TXSettingCell.m in Sources */,
 				CFC47C6F1BB98A42001C6F50 /* main.m in Sources */,
